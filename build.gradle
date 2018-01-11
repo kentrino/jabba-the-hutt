@@ -1,0 +1,5 @@
+apply plugin: 'java'
+// applicationプラグインを利用するとgradle runコマンドでアプリケーションを起動できるようになる
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
